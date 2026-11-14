@@ -8,14 +8,16 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "dill>=0.4.1",
     "ipykernel>=7.4.0",
     "joblib>=1.6.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.1.1",
-    "scikit-learn>=1.9.1",
+    "scikit-learn==1.7.2",
     "seaborn>=0.13.2",
+    "streamlit>=1.67.0",
 ]
 
 [project.scripts]
